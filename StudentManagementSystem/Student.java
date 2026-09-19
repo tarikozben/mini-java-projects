@@ -1,11 +1,13 @@
 package studentmanagementsystem;
 
+// Step 1: Define the Student class
 public class Student {
     String name;
     int rollNumber;
     int age;
     double height;
 
+    // Constructor to initialize Student object
     public Student(String name, int rollNumber, int age, double height) {
         this.name = name;
         this.rollNumber = rollNumber;
